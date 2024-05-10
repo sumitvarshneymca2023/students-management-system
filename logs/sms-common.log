@@ -1,0 +1,38 @@
+2024-05-09 19:42:25.091 o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 6.2.5.Final
+2024-05-09 19:42:25.097 c.s.m.s.StudentsManagementSystemApplication.logStarting - Starting StudentsManagementSystemApplication using Java 1.8.0_412 on sumit-Latitude-3520 with PID 7536 (/home/sumit/Desktop/Students-Management-System/target/classes started by sumit in /home/sumit/Desktop/Students-Management-System)
+2024-05-09 19:42:25.098 c.s.m.s.StudentsManagementSystemApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-05-09 19:42:25.148 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09 19:42:25.149 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09 19:42:26.177 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09 19:42:26.262 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-05-09 19:42:27.133 o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2024-05-09 19:42:27.144 o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-09 19:42:27.145 o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2024-05-09 19:42:27.145 o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-05-09 19:42:27.206 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2024-05-09 19:42:27.207 o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2058 ms
+2024-05-09 19:42:27.366 o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09 19:42:27.414 org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-05-09 19:42:27.521 o.h.s.integration.SpatialService.<init> - HHH80000001: hibernate-spatial integration enabled : true
+2024-05-09 19:42:27.543 o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-09 19:42:27.645 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2024-05-09 19:42:27.939 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2024-05-09 19:42:27.957 org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+2024-05-09 19:42:29.013 o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-09 19:42:29.025 o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 19:42:31.123 o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c9b94fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cf62001, org.springframework.security.web.context.SecurityContextPersistenceFilter@479fddd5, org.springframework.security.web.header.HeaderWriterFilter@70face7c, org.springframework.web.filter.CorsFilter@8bd0920, org.springframework.security.web.authentication.logout.LogoutFilter@6fce8925, com.students.management.system.security.JwtTokenFilter@7e1301e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e29c49c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@558a2723, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@389a6817, org.springframework.security.web.session.SessionManagementFilter@2bdc44fe, org.springframework.security.web.access.ExceptionTranslationFilter@3add8d9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e3b887c]
+2024-05-09 19:42:31.477 o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2024-05-09 19:42:31.492 o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-09 19:42:31.511 o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-09 19:42:31.520 c.s.m.system.config.Bootstrap.onApplicationEvent - In On Application Event method
+2024-05-09 19:42:31.520 c.s.m.system.config.Bootstrap.createPrivilegesIfNotExist - In Create default Privileges method
+2024-05-09 19:42:31.573 c.s.m.system.config.Bootstrap.createDefaultRolesIfNotExist - In Create default Roles method
+2024-05-09 19:42:31.600 c.s.m.system.config.Bootstrap.createSuperAdminIfNotExist - In create super admin request
+2024-05-09 19:42:31.656 c.s.m.s.StudentsManagementSystemApplication.logStarted - Started StudentsManagementSystemApplication in 6.983 seconds (JVM running for 7.463)
+2024-05-09 19:42:41.835 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09 19:42:41.836 o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-05-09 19:42:41.837 o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2024-05-09 19:42:42.294 o.s.api.AbstractOpenApiResource.getOpenApi - Init duration for springdoc-openapi is: 208 ms
+2024-05-09 19:43:09.901 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 19:43:09.910 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-05-09 19:43:09.937 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
